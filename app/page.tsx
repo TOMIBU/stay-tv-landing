@@ -12,8 +12,13 @@ export default function LandingPage() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold text-xl">
-            <Monitor className="h-6 w-6 text-primary" />
-            <span>StayTV</span>
+            <Image
+              src="/logo-staytv.svg?height=100&width=150"
+              width={100}
+              height={150}
+              alt="StayTV logo"
+              className="object-cover"
+            />
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#features" className="text-sm font-medium hover:text-primary">
@@ -24,9 +29,6 @@ export default function LandingPage() {
             </Link>
             <Link href="#testimonials" className="text-sm font-medium hover:text-primary">
               Testimonios
-            </Link>
-            <Link href="#pricing" className="text-sm font-medium hover:text-primary">
-              Precios
             </Link>
           </nav>
           <div className="flex items-center gap-4">
@@ -45,7 +47,7 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm">
+                <div className="inline-flex items-center rounded-lg bg-muted px-3 py-2 text-sm">
                   <Star className="mr-1 h-4 w-4 text-primary" />
                   <span>Mejora la experiencia de tus huéspedes</span>
                 </div>
@@ -76,7 +78,7 @@ export default function LandingPage() {
               <div className="flex items-center justify-center">
                 <div className="relative w-full max-w-[500px] aspect-video overflow-hidden rounded-xl border shadow-xl">
                   <Image
-                    src="/placeholder.svg?height=500&width=800"
+                    src="/hero.png?height=500&width=800"
                     width={800}
                     height={500}
                     alt="StayTV en acción"
@@ -387,8 +389,13 @@ export default function LandingPage() {
       <footer className="w-full border-t bg-background py-6">
         <div className="container flex flex-col items-center justify-between gap-4 md:flex-row px-4 md:px-6">
           <div className="flex items-center gap-2 font-bold">
-            <Monitor className="h-5 w-5 text-primary" />
-            <span>StayTV</span>
+            <Image
+              src="/logo-staytv.svg?height=100&width=150"
+              width={75}
+              height={125}
+              alt="StayTV logo"
+              className="object-cover"
+            />
           </div>
           <p className="text-center text-sm text-muted-foreground md:text-left">
             &copy; {new Date().getFullYear()} StayTV. Todos los derechos reservados.
