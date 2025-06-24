@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function LandingPage() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col text-white">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold text-xl">
@@ -47,7 +47,7 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="inline-flex items-center rounded-lg bg-muted px-3 py-2 text-sm">
+                <div className="inline-flex items-center rounded-lg bg-muted px-[100px] py-2 text-sm mb-[10px] w-fit">
                   <Star className="mr-1 h-4 w-4 text-primary" />
                   <span>Mejora la experiencia de tus huéspedes</span>
                 </div>

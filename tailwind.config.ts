@@ -19,13 +19,13 @@ const config = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
+        border: "rgb(56, 66, 82)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: "rgb(34, 41, 56)",
+        foreground: "rgb(185, 185, 185)",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "rgb(136,58,255)",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -37,8 +37,8 @@ const config = {
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "rgb(56, 66, 82)",
+          foreground: "rgb(185, 185, 185)",
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
@@ -49,7 +49,7 @@ const config = {
           foreground: "hsl(var(--popover-foreground))",
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
+          DEFAULT: "rgb(65, 75, 95)",
           foreground: "hsl(var(--card-foreground))",
         },
       },
