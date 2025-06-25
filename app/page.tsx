@@ -242,7 +242,7 @@ export default function LandingPage() {
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground">
                   1
                 </div>
-                <div className="absolute top-8 left-[50%] hidden h-px w-full bg-border md:block"></div>
+                <div className="absolute top-8 left-[50%] hidden h-px w-full bg-white md:block"></div>
                 <h3 className="text-xl font-bold">Regístrate</h3>
                 <p className="text-center text-muted-foreground mt-2">
                   Crea tu cuenta en nuestra plataforma y configura los detalles de tu alojamiento.
@@ -252,7 +252,7 @@ export default function LandingPage() {
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground">
                   2
                 </div>
-                <div className="absolute top-8 left-[50%] hidden h-px w-full bg-border md:block"></div>
+                <div className="absolute top-8 left-[50%] hidden h-px w-full bg-white md:block"></div>
                 <h3 className="text-xl font-bold">Configura</h3>
                 <p className="text-center text-muted-foreground mt-2">
                   Personaliza la información que quieres mostrar y las experiencias que deseas ofrecer.
@@ -376,7 +376,7 @@ export default function LandingPage() {
                 </form>
                 <p className="text-xs text-muted-foreground">
                   Al enviar este formulario, aceptas nuestra{" "}
-                  <Link href="#" className="underline underline-offset-2">
+                  <Link href="/politica-de-privacidad" className="underline underline-offset-2">
                     política de privacidad
                   </Link>
                   .
@@ -401,10 +401,10 @@ export default function LandingPage() {
             &copy; {new Date().getFullYear()} StayTV. Todos los derechos reservados.
           </p>
           <div className="flex gap-4">
-            <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
+            <Link href="/terminos-y-condiciones" className="text-sm text-muted-foreground hover:text-foreground">
               Términos
             </Link>
-            <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
+            <Link href="/politica-de-privacidad" className="text-sm text-muted-foreground hover:text-foreground">
               Privacidad
             </Link>
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
